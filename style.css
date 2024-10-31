@@ -1,0 +1,276 @@
+.logo {
+    height: 100px;
+  align-items: center;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+   
+}
+
+/* header {
+    height: 100vh;
+    background: 
+       url("img/mountains.png"),
+        url("img/switzerland-862870_1920.jpg");
+       
+                      
+    background-repeat:  no-repeat;
+    
+}  */
+
+header {
+    
+  height: 100vh;
+  background: url(/img/mountains2.png), linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0)), url(/img/switzerland-862870_1920.jpg);
+  background-repeat: no-repeat;
+  background-position:
+    bottom, center;
+    
+    background-size: cover;
+}
+h1 {
+  color:darkred;
+  font-size: 100px;
+  line-height: 1000px;
+  text-align: center;}
+
+  .sezione {
+    height: 100vh;
+    background: url(/img/trees2.png), #ececec; 
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+.h2 {
+  text-align: center;
+ font-style: italic;
+ font-family: 'Rajdhani', sans-serif;
+ font-weight:lighter;
+ color: rgb(118, 115, 115);
+ font-size: x-large;
+}
+
+.icons {
+  display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.margine {
+margin-top: 200px;
+}
+
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.timeline-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: 'Rajdhani', sans-serif;
+  color:darkred
+}
+
+.timeline-item {
+  
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Rajdhani', sans-serif;
+ color: darkred;
+}
+
+  .titolo
+  {
+    font-size: 500px;
+  }
+  p {color: black;}
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.grid-container {
+  display: grid;
+            grid-template-columns: 1fr 1fr; /* Due colonne con larghezza uguale */
+            gap: 20px;
+            padding: 20px;
+            justify-content: space-between; /* Allinea le colonne a sinistra e a destra */
+}
+
+.grid-item {
+    padding: 100px;
+    font-family: 'Rajdhani', sans-serif;
+    color: darkred;
+
+
+}
+.red-button {
+  padding: 10px 20px;
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+   font-family:'Rajdhani', sans-serif  ;}
+  
+ .container {
+  position: relative;
+  width: 200px; /* Larghezza del contenitore */
+  height: 20px; /* Altezza del contenitore */
+}
+
+.horizontal-line {
+  position: absolute;
+  top: 50%; /* Posiziona la linea al centro del contenitore */
+  left: 0;
+  right: 0;
+  height: 2px; /* Altezza della linea */
+  background-color: red; /* Colore della linea */
+  margin-top: -1px; /* Imposta il margine negativo della metà dell'altezza della linea */
+}
+
+.dot {
+  position: absolute;
+  top: 50%; /* Posiziona il pallino al centro della linea */
+  left: 50%; /* Posiziona il pallino al centro orizzontalmente */
+  width: 10px; /* Dimensioni del pallino */
+  height: 10px;
+  background-color: white; /* Colore del pallino */
+  border-radius: 50%; /* Rendi il pallino circolare */
+  transform: translate(-50%, -50%); /* Posiziona il centro del pallino al centro del suo contenitore */
+}
+
+.sezionedue {
+  height: 65vh;
+  background: url(/img/single.png), #ffffff; 
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sezionetre {
+  height: 150vh;
+  background: url(/img/other.png), #ececec;
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.borderline {
+  border-bottom: 3px solid darkred;
+  position: relative;
+  padding-bottom: 10px;
+}
+.borderline::after{
+  content: "";
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid darkred;
+  position: absolute;
+  left: 43%;
+  top: 70%;
+  }
+
+
+  .righerosse{
+    
+    border-left: 3px solid darkred;
+    padding-left: 25px;
+    position: relative;
+
+}
+
+.righerosse::after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid darkred;
+    position: absolute;
+    left: -11px;
+    top: 0px;
+}
+ 
+.rotondo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 4px solid darkred;
+  
+  
+
+}
+
+.face {
+ color: darkred;
+ padding: 30px;
+ font-size:x-large
+}
+
+.insta {
+  color: darkred;
+  padding: 30px;
+  font-size:x-large
+ }
+
+ .linked {
+  color: darkred;
+  padding: 30px;
+  font-size:x-large
+ }
+
+ h2 {
+  font-family:'Rajdhani', sans-serif  ;
+  color: darkred;
+ }
+
+ .rotondodue {
+  height: 275px;
+  width: 275px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 4px solid darkred;
+  
+ }
+
+ .sezionequattro {
+  height: 30vh;
+  background-color:darkred
+ }
+
+ .Footer {
+font-size:70px;
+color: whitesmoke ;
+padding: 50px;
+ }
+
+ .prova  {
+  padding: 220px;
+ }
+
+ @media screen and (min-width:2500px) { 
+  body {
+    padding: 0px 500px;
+    
+  }
+ }
